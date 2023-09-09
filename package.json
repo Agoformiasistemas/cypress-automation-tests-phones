@@ -1,0 +1,30 @@
+{
+  "name": "cypress-automation-tests-phones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agoformiasistemas/cypress-automation-tests-phones.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Agostina Formia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Agoformiasistemas/cypress-automation-tests-phones/issues"
+  },
+  "homepage": "https://github.com/Agoformiasistemas/cypress-automation-tests-phones#readme",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "cy-verify-downloads": "^0.1.16",
+    "cypress": "^13.1.0",
+    "dotenv": "^16.3.1"
+  }
+}
