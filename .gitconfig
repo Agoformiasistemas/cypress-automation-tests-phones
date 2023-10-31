@@ -1,0 +1,9 @@
+[user]
+    email= agos.formia@gmail.com
+    name= Agostina formia
+
+[github]
+    user= Agoformiasistemas
+
+[core]
+    sshCommand= "ssh -i ~/.ssh/personal"

@@ -26,10 +26,6 @@ class MainPage {
   getAddToCartButton() {
     return cy.get('button[id="button-cart"]');
   }
-
-  getInputSearch() {
-    return cy.get('div[id="search"]');
-  }
 }
 
 module.exports = new MainPage();
