@@ -2,7 +2,7 @@ import { Given, When } from "@badeball/cypress-cucumber-preprocessor";
 const storeMainPage = require("../../pages/MainPage");
 
 Given(`a user in the Phone Store home page`, () => {
-  cy.visit("http://opencart.abstracta.us/");
+  cy.visit("https://opencart.abstracta.us/");
 });
 
 When(`the phone is removed to the cart`, () => {
