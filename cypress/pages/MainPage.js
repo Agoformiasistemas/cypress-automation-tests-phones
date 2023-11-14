@@ -1,26 +1,30 @@
 class MainPage {
-  getInputSearch() {
-    return cy.get('div[id="search"]');
+  getOptionsContainer() {
+    return cy.get("div.container");
   }
 
-  getfirstResultGridview() {
+  getoptionsPageContainer() {
     return cy.get("img.img-responsive");
   }
 
-  getEmptyTitleOfCart() {
-    return cy.get('div[id="content"]');
+  getButtons() {
+    return cy.get("button.btn.btn-primary");
   }
 
-  getButtonsOfPage() {
-    return cy.get("i.fa.fa-shopping-cart");
+  getInputButton() {
+    return cy.get("button[id='updatingButton']");
+  }
+
+  getInputPageBox() {
+    return cy.get("input[id='newButtonName']");
   }
 
   getRemoveButton() {
     return cy.get('button[data-original-title="Remove"]');
   }
 
-  getLabelTotalCart() {
-    return cy.get('span[id="cart-total"]');
+  getInputBox() {
+    return cy.get("");
   }
 
   getAddToCartButton() {

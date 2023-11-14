@@ -1,7 +1,7 @@
 {
-  "name": "cj-automation-tests",
-  "version": "2.0.0",
-  "description": "Automation tests for Care Journey using Cypress+Cucumber",
+  "name": "cypress-automation-tests-phones",
+  "version": "1.0.0",
+  "description": "Automation tests for Personal Projects using Cypress+Cucumber",
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open --e2e --browser chrome",
