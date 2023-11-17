@@ -1,54 +1,6 @@
 {
   "name": "cypress-automation-tests-phones",
   "version": "1.0.0",
-  "description": "Automation tests for Personal Projects using Cypress+Cucumber",
-  "main": "index.js",
-  "scripts": {
-    "cypress:open": "cypress open --e2e --browser chrome",
-    "cypress:open:tst": "cypress open --e2e --browser chrome -e ENV=TST,\"tags=not @ignore\"",
-    "cypress:open:int": "cypress open --e2e --browser chrome -e ENV=INT,\"tags=not @ignore\"",
-    "cypress:open:prod": "cypress open --e2e --browser chrome -e ENV=PROD,\"tags=not @ignore\"",
-    "Run:multipleNPI:prod": "cypress run --e2e --browser chrome -e ENV=PROD,\"tags=@multipleNPISearch and not @ignore\" -s cypress/e2e/features/NPI/**/*.feature",
-    "generate:report": "node cucumber-html-report.js",
-    "generate:report:combined": "node cucumber-html-report-combined.js",
-    "smoke for EXPLORER": "smoke for EXPLORER",
-    "cypress:run:smoke:dev:explorer": "cypress run --e2e --browser chrome -e ENV=DEV,\"tags=@smoke and not @ignore\" -s cypress/e2e/features/Explorer/**/*.feature",
-    "cypress:run:smoke:tst:explorer": "cypress run --e2e --browser chrome -e ENV=TST,\"tags=@smoke and not @ignore\" -s cypress/e2e/features/Explorer/**/*.feature"
-  },
-  "keywords": [
-    "cypress",
-    "cucumber"
-  ],
-  "author": "Agostina Formia",
-  "license": "ISC",
-  "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^15.1.0",
-    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
-    "ajv": "^8.11.0",
-    "dotenv": "^16.3.1",
-    "multiple-cucumber-html-reporter": "^3.4.0"
-  },
-  "devDependencies": {
-    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
-    "cucumber-junit-convert": "^2.1.1",
-    "cy-verify-downloads": "^0.1.15",
-    "cypress": "^12.9.0",
-    "cypress-iframe": "^1.0.1",
-    "eslint": "^8.30.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-chai-friendly": "^0.7.2",
-    "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "prettier": "^2.8.4"
-  }
-}
-{
-  "name": "cypress-automation-tests-phones",
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {

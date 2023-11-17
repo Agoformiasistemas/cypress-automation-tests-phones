@@ -1,6 +1,8 @@
 
 Feature: Test UI Testing Playground
 
+    # Point 2 of the exercises
+
     Scenario: Test Dynamic ID page
         Given a user in the uitesting Playground home page
         And the user enter in "Dynamic ID" option in the sections view
