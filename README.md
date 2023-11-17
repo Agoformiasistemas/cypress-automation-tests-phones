@@ -1,2 +1,3 @@
-# cypress-automation-tests-phones
-Es un proyecto para la entrevista técnica de Abstracta
+# cypress-automation-interview
+
+Es un proyecto para la entrevista técnica de Chariot
