@@ -1,3 +1,3 @@
 # cypress-automation-interview
 
-Es un proyecto para la entrevista técnica de Chariot.
+It's a example project to show my technical skills.
